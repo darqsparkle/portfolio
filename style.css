@@ -173,8 +173,14 @@ section {
   display: flex;
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: auto;
 }
+
+.section__pic-container img {
+  margin-left: -8rem; /* Adjust this value to slightly align the image to the left */
+}
+
+
 
 .section__text {
   align-self: center;
